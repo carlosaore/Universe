@@ -1,4 +1,4 @@
-body{                           /*body and bod::after css starts*/
+body{                           
     width:100%;
     height:100%;
     margin:0px;
@@ -18,11 +18,11 @@ body::after {
     right: 0;
     position: fixed;
     z-index: -2;                   
-}                               /*body and bod::afer css stop*/
-a:hover{           /* hover links for the whole page*/
+}                               
+a:hover{           
     background-color: grey;
 }
-#nav-bar{                      /*nav bar css start*/
+#nav-bar{                      
     width:100%;
     top:0;
     left:0;
@@ -49,7 +49,7 @@ a:hover{           /* hover links for the whole page*/
 #logo{
     position: absolute;
     left: 0;
-    top: 5p;                        /*nav bar css stop*/
+    top: 5p;                        
 }
 #main-img{
     width: 100%;
