@@ -1,23 +1,5 @@
-body{                           
-    width:100%;
-    height:100%;
-    margin:0px;
-}
-body::after {
-    content: "";
-    background: url(https://preview.redd.it/iqa7q0581ak11.jpg?width=960&crop=smart&auto=webp&s=25f8b393dba3569d3cfbb706ded0e517a0db692b);
-    background-repeat:no-repeat;
-    background-size:cover;
-    width:100%;
-    height:100%;
-    background-attachment:scroll;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    bottom:0;
-    right: 0;
-    position: fixed;
-    z-index: -2;                   
+body {
+    background-color: #ededed;                   
 }                               
 a:hover{           
     background-color: grey;
@@ -53,24 +35,39 @@ a:hover{
 }
 #main-img{
     width: 100%;
-    height: auto;
-    opacity: 0.8;
-    left:0;
-    z-index: 1;
+    height: 25%;
+    display: inline-block;
 }
-.container{
+.article-container{
     display: flex;
     justify-content: space-around;
 }
-.article1{
+
+#article1 {
     background-color: white;
-    z-index: 0;
-    border: solid black;
-    padding: 30px;
-    margin: 50px;
-    width:80%;
-    height: 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    padding: 3%;
+    border-radius: 10px;
 }
+
+#article2 {
+    background-color: white;
+    margin-bottom: 5%;
+    width: 90%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+#twitter-widget {
+    background-color: white;
+    margin-bottom: 5%;
+    width: 90%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
 #footer{
     width:98.95%;
     left: 0;
