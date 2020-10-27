@@ -21,9 +21,7 @@ body::after {
 }                               
 #nav-bar{     
     border:1px solid #3c3c3c;                
-body {
-    background-color: #ededed;                   
-}                              
+                       
 
 
 #nav-bar{                      
@@ -162,11 +160,4 @@ footer{
     height: 100%;
     margin: 0px;
     padding-top: 5px;
-    
-#footer{
-    width:98.95%;
-    left: 0;
-    bottom: 0;
-    background-color: #D3D3D3;
-    padding:10px;
 }
