@@ -132,6 +132,10 @@ a:hover{
     gap: 6%
 }
 
+#twitter-widget h1 {
+    width: 100%;
+}
+
 #twitter-left, #twitter-right {
     flex-grow: 1;
 }
