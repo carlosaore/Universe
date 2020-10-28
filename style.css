@@ -1,4 +1,5 @@
 body{
+    font-family : 'Montserrat', sans-serif;
     background-color: #ededed;                           
     width:100%;
     height:100%;
@@ -21,6 +22,7 @@ body::after {
     z-index: -2;                   
 }
 #nav-bar{  
+    font-family : 'Gruppo', cursive;
     border:1px solid #3c3c3c;                    
     width:100%;
     height: 60px;
@@ -123,10 +125,12 @@ a:hover{
 
 /* Footer properties     */
 footer{
+    font-family: 'Gruppo', cursive;
     box-sizing: border-box;
     
 }
 .prelast{
+    font-family: 'Gruppo', cursive;
     height: 50px;
     background-color: #383838;
 }
@@ -154,6 +158,7 @@ footer{
     
 }
 .prelast ul li p{
+    font-family: 'Gruppo', cursive;
     text-align: center;
     height: 100%;
     margin: 0px;
