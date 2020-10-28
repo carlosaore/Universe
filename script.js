@@ -13,55 +13,18 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
-  
-const f_footer_li = document.getElementById('f_footer_li');
-const f_footer_p = document.getElementById('f_footer_p');
-f_footer_li.addEventListener('mouseover', ()=>{
-    f_footer_p.innerHTML = 'Aliens';
-    f_footer_p.style.color = '#00FFFF'
- 
-})
-f_footer_li.addEventListener('mouseout', ()=>{
-    f_footer_p.innerHTML = 'Who we are?';
-    f_footer_p.style.color = '#D3D3D3'
-     
-})
-
-
-
-
-const f_footer_li2 = document.getElementById('f_footer_li2');
-const f_footer_p2 = document.getElementById('f_footer_p2');
-f_footer_li2.addEventListener('mouseover', ()=>{
-    f_footer_p2.innerHTML = 'Wild Code School';
-    f_footer_p2.style.color = '#00FFFF'
- 
-})
-f_footer_li2.addEventListener('mouseout', ()=>{
-    f_footer_p2.innerHTML = 'Our School';
-    f_footer_p2.style.color = '#D3D3D3'
-     
-})
-
-
-
-const f_footer_li3 = document.getElementById('f_footer_li3');
-const f_footer_p3 = document.getElementById('f_footer_p3');
-f_footer_li3.addEventListener('mouseover', ()=>{
-    f_footer_p3.innerHTML = 'Send letters with doves';
-    f_footer_p3.style.color = '#00FFFF'
- 
-})
-f_footer_li3.addEventListener('mouseout', ()=>{
-    f_footer_p3.innerHTML = 'Contact Us';
-    f_footer_p3.style.color = '#D3D3D3'
-     
-})
-
-
-
 
 /* Our team for footer*/
+ const btn1 = document.querySelector(".btn1")
+ const btn2 = document.querySelector(".btn2")
+ const btn3 = document.querySelector(".btn3")
+const cont = document.querySelector('.flex-container')
+
+
+ btn1.addEventListener('click', function() {
+ cont.classList.toggle("show");
+ })
+
 
 let team =[
   {name: 'Alfred',
@@ -113,7 +76,14 @@ for(let i=0; i < team.length; i++) {
   </div>
 </div>
 
+
   `;
 }
-
 idForJS.innerHTML = classToHtml
+
+
+
+
+
+
+ 

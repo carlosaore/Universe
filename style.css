@@ -129,6 +129,7 @@ footer{
 .prelast{
     height: 50px;
     background-color: #383838;
+   
 }
 #last{
     background-image: url(resources/footer.jpg);
@@ -162,10 +163,14 @@ footer{
     
 }
 .flex-container{
-    display: flex;
+    display: none;
     
     
 }
+.show{
+    display: flex;
+}
+
 .container{
     width: 280px;
     height: 100%;
@@ -184,3 +189,27 @@ footer{
     margin-top: 15px;
    
 }
+
+.btn1, .btn2, .btn3{
+    background-color: #3c3c3c;   
+}
+.footer_logo{
+    padding-top: 200px;
+    list-style-type: none;
+}
+
+
+.footer_logo li{
+list-style-type: none;
+}
+ .footer_text{
+     font-size: larger;
+     color:#ededed;
+ }
+ .last_text{
+     margin-left: 560px;
+     color:#FF8C00;
+     font: bold italic 110% serif;
+ }
+
+ 
