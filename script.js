@@ -23,9 +23,17 @@ const cont = document.querySelector('.flex-container')
 
 
  btn1.addEventListener('click', function() {
+
+  
  cont.classList.toggle("show");
  footer_const.classList.toggle("footer_const_none");
- 
+
+ if(butn3.matches('.butn3_show')){
+  butn3.classList.toggle("butn3_show");
+  footer_const.classList.toggle("footer_const_none");
+}
+
+
  })
 
 
@@ -84,11 +92,18 @@ for(let i=0; i < team.length; i++) {
 }
 idForJS.innerHTML = classToHtml;
 
+
+
+
 let butn3 = document.getElementById('butn3');
 let footer_const = document.getElementById('footer_const');
 btn3.addEventListener('click', function() {
   butn3.classList.toggle("butn3_show");
   footer_const.classList.toggle("footer_const_none");
-  
- 
+
+  if(cont.matches('.show')){
+    cont.classList.toggle("show");
+    footer_const.classList.toggle("footer_const_none");
+  }
   })
+

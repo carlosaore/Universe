@@ -312,7 +312,17 @@ list-style-type: none;
 }
 .foot_ul li a:hover {
     text-decoration: none;
-    
+
+}
+
+.none{
+    display:none;
+}
+
+    /* Footer properties end    */
+
+
+
 @media (max-width: 952px) {
     #logo{
         font-size: 20px;
@@ -324,7 +334,6 @@ list-style-type: none;
 }
 
 
-/* Footer properties end    */
 
 
 @media (max-width: 858px) {
