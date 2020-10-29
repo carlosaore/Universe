@@ -214,6 +214,7 @@ footer{
    
 }
 
+<<<<<<< HEAD
 .btn1, .btn2, .btn3{
     background-color: #3c3c3c;   
 }
@@ -323,6 +324,8 @@ list-style-type: none;
 
 
 
+=======
+>>>>>>> origin
 @media (max-width: 952px) {
     #logo{
         font-size: 20px;
@@ -332,10 +335,13 @@ list-style-type: none;
         font-size: 16px;
     }
 }
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> origin
 @media (max-width: 858px) {
     .checkbtn{
         display:block;
