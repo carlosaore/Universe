@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wild Universe</title>
+    <script src="https://kit.fontawesome.com/39feeb6006.js"></script>
 </head>
 <body>
-        <nav id="nav-bar">
-          <ul id="nav-list">
-            <li class="list-items"><a href="">Cat ipsum</a></li>
-            <li class="list-items"><a href="">Cat ipsum</a></li>
-            <li class="list-items"><a href="">Cat ipsum</a></li>
-            <li class="list-items"><a href="">Home</a></li>
-            <li class="list-items" id="logo">WILD UNIVERSE</li>
+        <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+            <label id="logo">WILD UNIVERSE</label>
+          <ul>
+            <li><a class="home" href="index.html">Home</a></li>
+            <li><a href="galaxy.html">Our Galaxy</a></li>
+            <li><a href="solar-system.html">Our Solar System</a></li>
+            <li><a href="planetX.html">Fact or Fiction?</a></li>
           </ul>
         </nav>
   <header>
@@ -23,27 +30,24 @@
   <div class="article-container">
     <article id="article1">
       <h1>Article of the month</h1>
-      <p>Cat playing a fiddle in hey diddle diddle? i heard this rumor where the humans are our owners, pfft, what do they know?! and stare at imaginary bug so murr i hate humans they are so annoying, for loves cheeseburgers but intrigued by the shower, for found somthing move i bite it tail.Funny little cat chirrup noise shaking upright tail when standing next to you rub face on everything, so bird bird bird bird bird bird human why take bird out i could have eaten that so missing until dinner time, so attack dog, run away and pretend to be victim or you have cat<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed mcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare urpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla ongue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cat playing a fiddle in hey diddle diddle? i heard this rumor where the humans are our owners, pfft, what do they know?! and stare at imaginary bug so murr i hate humans they are so annoying, for loves cheeseburgers but intrigued by the shower, for found somthing move i bite it tail. Funny little cat chirrup noise shaking upright tail when standing next to you rub face on everything, so bird bird bird bird bird bird human why take bird out i could have eaten that so missing until dinner time, so attack dog, run away and pretend to be victim or you have cat to be kitten me. </span></p>
-      <button onclick="myFunction()" id="read-more">Read more</button>
+      <h2>NASA’s SOFIA Discovers Water on Sunlit Surface of Moon</h2>
+      <p>NASA’s Stratospheric Observatory for Infrared Astronomy (SOFIA) has confirmed, for the first time, water on the sunlit surface of the Moon. This discovery indicates that water may be distributed across the lunar surface, and not limited to cold, shadowed places.<span id="dots"></span></p>
+      <div id="more">
+        <p>SOFIA has detected water molecules (H2O) in Clavius Crater, one of the largest craters visible from Earth, located in the Moon’s southern hemisphere. Previous observations of the Moon’s surface detected some form of hydrogen, but were unable to distinguish between water and its close chemical relative, hydroxyl (OH). Data from this location reveal&nbsp;water in concentrations of 100 to 412 parts per million – roughly equivalent to a 12-ounce bottle of water – trapped in a cubic meter of soil spread across the lunar surface. The <a href="https://www.nature.com/articles/s41550-020-01222-x#_blank">results are published</a> in the latest issue of Nature Astronomy.</p>
+        <p><small>This month's article is courtesy of <a href="https://www.nasa.gov/press-release/nasa-s-sofia-discovers-water-on-sunlit-surface-of-moon/">NASA</a></small></p>
+      </div>
+      <button onclick="readMore()" id="read-more">Read more</button>
     </article>
   </div>
   <div class="article-container">
     <article id="article2">
-      <h1>Title</h1>
-      <p>Cat playing a fiddle in hey diddle diddle?
-      i heard this rumor where the humans are our owners, pfft,
-      what do they know?! and stare at imaginary bug so murr i 
-      hate humans they are so annoying, for loves cheeseburgers 
-      but intrigued by the shower, for found somthing move i bite it tail.
-      Funny little cat chirrup noise shaking upright tail when 
-      standing next to you rub face on everything, so bird bird 
-      bird bird bird bird human why take bird out i could have 
-      eaten that so missing until dinner time, so attack dog, 
-      run away and pretend to be victim or you have cat to be kitten me.</p>
+      <h1>Why?</h1>
+      <p>Why is knowing about our Universe important? Or our Solar System? Imagine living in your own home and not knowing where each room is or which room is used for what. Not knowing about the Universe is exactly like that. We live on planet Earth and planet Earth is part of our solar system, which is located in the Milky Way Galaxy. The Milky Way galaxy is only a small spec that is part of the Universe. Our Universe is an infinitely vast place of space. No one knows the exact size of the Universe but several theories propose that it is, to this day, constantly expanding, meaning that it is only getting bigger and bigger every second of every minute. That's <b>BIG!</b> No one knows for sure how the Universe came to be either. There are multiple theories but none can be proven. Still, just in case, buy a beer to your nearest pastafarian, don't panic and always carry a towel.</p>
     </article>
   </div>  
   <div class="article-container">
     <article id="twitter-widget">
+      <h1>Latest tweets by the Intl. Space Station and SpaceX </h1>
       <div id="twitter-left">
         <a class="twitter-timeline" href="https://twitter.com/Space_Station?ref_src=twsrc%5Etfw" data-tweet-limit="1">Last Tweet by Space_Station</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
