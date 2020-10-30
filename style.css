@@ -1,391 +1,235 @@
-body{
-    font-family : 'Montserrat', sans-serif;
-    background-color:#ededed;
-    width:100%;
-    height:100%;
-    margin:0px;
+body {
+	font-family: Montserrat, sans-serif;
+	background-color: #ededed;
+	width: 100%;
+	height: 100%;
+	margin: 0
 }
+
 body::after {
-    content: "";
-    background: url(https://preview.redd.it/iqa7q0581ak11.jpg?width=960&crop=smart&auto=webp&s=25f8b393dba3569d3cfbb706ded0e517a0db692b);
-    background-repeat:no-repeat;
-    background-size:cover;
-    width:100%;
-    height:100%;
-    background-attachment:scroll;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    bottom:0;
-    right: 0;
-    position: fixed;
-    z-index: -2;                   
+	content: "";
+	background: url(https://preview.redd.it/iqa7q0581ak11.jpg?width=960&crop=smart&auto=webp&s=25f8b393dba3569d3cfbb706ded0e517a0db692b);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	background-attachment: scroll;
+	opacity: 1;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	z-index: -2
 }
+
 nav {
-    font-family : 'Gruppo', cursive;  
-    border:2px solid #3c3c3c;
-    height: 60px;                    
-    width:100%;
-    position: fixed;
-    z-index:1;
-    background-color: #383838;
-    padding:0;
+	font-family: Gruppo, cursive;
+	border: 2px solid #3c3c3c;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	background-color: #383838;
+	padding: 0
 }
-nav ul{
-    list-style-type: none;
-    float: right;
-    margin-right: 80px;
-    padding-left:0;
+
+nav ul {
+	list-style-type: none;
+	float: right;
+	margin-right: 80px;
+	padding-left: 0
 }
-nav ul li{
-    display: inline-block;
-    line-height: 60px;
-    margin: 0 5px;
-    padding:0;
+
+nav ul li {
+	display: inline-block;
+	line-height: 60px;
+	margin: 0 5px;
+	padding: 0
 }
-nav ul li a{
-    display:block;
-    margin: 0;
-    padding: 0 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size:1rem;
-    color:#d3d3d3;
+
+nav ul li a {
+	display: block;
+	margin: 0;
+	padding: 0 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1rem;
+	color: #d3d3d3
 }
-a:hover{
-    border-right:3px double black;
-    border-left:3px double black;
-    border-top:none;
-    border-bottom:none;
-    text-decoration: none;
-    color: #d11f06;
-    transition: .5s;
+
+a:hover {
+	border-right: 3px double #000;
+	border-left: 3px double #000;
+	border-top: none;
+	border-bottom: none;
+	text-decoration: none;
+	color: #d11f06;
+	transition: .5s
 }
+
 .checkbtn {
-    font-size: 30px;
-    color:#d3d3d3;
-    float: right;
-    line-height: 60px;
-    margin-right: 40px;
-    cursor: crosshair;
-    display: none;
+	font-size: 30px;
+	color: #d3d3d3;
+	float: right;
+	line-height: 60px;
+	margin-right: 40px;
+	cursor: crosshair;
+	display: none
 }
+
 #check {
-    display: none;
+	display: none
 }
+
 #logo {
-    font-size: 1.5rem;
-    line-height: 60px;
-    margin-top: 0px;
-    padding-left:5rem;
-    padding-right:0;
-    color:#d3d3d3;                      
+	font-size: 1.5rem;
+	line-height: 60px;
+	margin-top: 0;
+	padding-left: 5rem;
+	padding-right: 0;
+	color: #d3d3d3
 }
-#main-img{
-    width: 100%;
-    height: auto;
-    left:0;
-    z-index: 1;
-    margin-top:3.7rem;
-    opacity :0.9;
+
+#main-img {
+	width: 100%;
+	height: auto;
+	left: 0;
+	z-index: 1;
+	margin-top: 3.7rem;
+	opacity: .9
 }
-.article-container{
-    display: flex;
-    justify-content: space-around;
+
+.article-container {
+	display: flex;
+	justify-content: space-around
 }
 
 #article1 {
-    background-color: #C0C0C0;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 80%;
-    padding: 3%;
-    border-radius: 10px;
-    opacity: 0.8;
+	background-color: silver;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 80%;
+	padding: 3%;
+	border-radius: 10px;
+	opacity: .8
 }
 
 #article2 {
-    background-color: #C0C0C0;
-    margin-bottom: 5%;
-    width: 80%;
-    padding: 3%;
-    border-radius: 10px;
-    opacity: 0.8;
+	background-color: silver;
+	margin-bottom: 5%;
+	width: 80%;
+	padding: 3%;
+	border-radius: 10px;
+	opacity: .8
 }
 
 #more {
-    display: none;
+	display: none
 }
 
 #read-more {
-    float: right;
-    border-width: 0px;
-    background-color: #C0C0C0;
-    color: teal;
+	float: right;
+	border-width: 0;
+	background-color: silver;
+	color: teal
 }
 
 #twitter-widget {
-    background-color: #C0C0C0;
-    margin-bottom: 5%;
-    width: 80%;
-    padding: 3%;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6%;
-    opacity: 0.8;
+	background-color: silver;
+	margin-bottom: 5%;
+	width: 80%;
+	padding: 3%;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6%;
+	opacity: .8
 }
 
 #twitter-widget h1 {
-    width: 100%;
+	width: 100%
 }
 
 #twitter-left, #twitter-right {
-    flex-grow: 1;
+	flex-grow: 1
 }
 
-
-
-/* Footer properties     */
-footer{
-    font-family: 'Gruppo', cursive;
-    box-sizing: border-box;
-    
-}
-/*.prelast{
-    font-family: 'Gruppo', cursive;
-    height: 50px;
-    background-color: #383838;
-   
-}*/
-#last{
-    background-color : #383838 ;
-    height: 350px;
-}
-/*.prelast ul{
+footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    padding-left:50px;
-    margin: 0px;
-    padding: 0px;
-    
-    
-}
-/*.prelast ul li{
-    list-style-type: none;
-    font-family: cursive;
-    font-size: 25px;
-    width: 100%;
-    height: 50px;
-    border: 1px solid gray;
-    
-}
-.prelast ul li p{
-    font-family: 'Gruppo', cursive;
-    text-align: center;
-    height: 100%;
-    margin: 0px;
-    padding-top: 5px;
-    color: #D3D3D3;
-    
-}*/
-.flex-container{
-    display: none;
-    
-    
-}
-.show{
-    display: flex;
 }
 
-.container{
-    width: 280px;
-    height: 100%;
-}
-.container img{
-    height: 150px;
-    width: 100%;
-}
-#card-body{
+footer {
     background-color: #3c3c3c;
 }
-#card-title, #card-text{
-    color: #ededed
-}
-#card{
-    margin-top: 15px;
-   
-}
 
-
-.btn1, .btn2, .btn3{
-    background-color: #3c3c3c;   
-}
-.footer_logo{
-    padding-top: 200px;
-    list-style-type: none;
-}
-
-
-.footer_logo li{
-list-style-type: none;
-}
- .footer_text{
-     font-size: larger;
-     color:#ededed;
- }
- .last_text{
-     margin-left: 560px;
-     color:#FF8C00;
-     font: bold italic 110% serif;
- }
-
- .second_block p{
-     text-align: center;
-     padding-top: 150px;
-     padding-left: 450px;
-    color: white;
-    font: bold italic 110% serif;
-    font-size: 60px;
- }
-
-
- .second_block{
-     display: none;
-
-}
-
- .second_block_show{
-    display: flex;
- }
-
- .footer_const_none{
-     display:none;
- }
-
- .btn2 a{
-
-    text-decoration: none;
-    color: black;
-    transition: none;
- }
-
- 
-
-.butn3{
-    display:none;
-}
-
-.butn3_show{
-    display: flex;
-    width: 100%;
-
-}
-#posl{
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-}
-#footer_const_none{
-    display: none;
-}
-
-#posl{
-    background-image: url(resources/footer.jpg);
-    margin-bottom: 0;
-}
- .foot_ul li{
-    color:#ededed;
-    list-style-type: none;
-    margin-left: -40px;
-    
-}
-
-.butn3 h1{
-    color:#ededed;
-    
-}
-.butn3{
+#footer-left, #footer-right {
+    width: 40%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #3c3c3c;
     text-align: center;
+    color: #d3d3d3;
+}
+
+#footer-right ul {
     list-style-type: none;
 }
 
-.foot_ul li a {
-    color: #ededed;
+#footer-right a {
+    color: #d3d3d3;
+}
+
+
+@media (max-width:952px) {
+	#logo {
+		font-size: 20px;
+		padding-left: 50px
+	}
+	nav ul li a {
+		font-size: 16px
+	}
+}
+
+@media (max-width:858px) {
+	.checkbtn {
+		display: block
+	}
+	nav ul {
+		position: fixed;
+/*		width: 100%; 
+This is causing the sidebar to show on 
+the side at all times whenever there is 
+something in the footer. Fix needed.
+*/
+		height: 100vh;
+		background: #2e2e2e;
+		top: 46px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s
+	}
+	nav ul li {
+		display: block;
+		margin: 50px 0;
+		line-height: 30px
+	}
+	nav ul li a {
+		font-size: 20px
+	}
+	a.home, a:hover {
+		background: 0 0;
+		color: #d11f06
+	}
+	#check:checked~ul {
+		left: 0
+    }
     
-}
-.foot_ul li a:hover {
-    text-decoration: none;
-
-}
-
-.none{
-    display:none;
-}
-
-    /* Footer properties end    */
-
-
-
-
-@media (max-width: 952px) {
-    #logo{
-        font-size: 20px;
-        padding-left: 50px;
+    #footer-left, #footer-right {
+        width: 90%;
     }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
 
-
-
-
-
-
-
-@media (max-width: 858px) {
-    .checkbtn{
-        display:block;
-    }
-    ul {
-        position:fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2e2e2e;
-        top: 60px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li {
-        display:block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    a:hover,a.home {
-        background: none;
-        color:#d11f06;
-    }
-    #check:checked ~ ul {
-        left:0;
-    }
-}
-#new-footer2{
-    font-size : 30px;
-    background-color: #383838;
-    display :flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
-@media (min-width :300px) {
-    #new-footer {
-            left :0;
-            bottom :0;
-    }
 }
