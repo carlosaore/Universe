@@ -233,3 +233,29 @@ something in the footer. Fix needed.
     }
 
 }
+
+.container-planetX {
+	display: flex;
+	justify-content: center;
+}
+#articleX {
+	color :white;
+	font-size: 50px;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	width: 60%;
+	padding: 2%;
+	border-radius: 10px;
+	opacity: .8;
+	text-align: center;
+}
+#planetX {
+	width: 80%;
+	height: auto;
+	border : solid silver;
+}
+.pageX-title{
+	display : flex;
+	justify-content: center;
+}
+
