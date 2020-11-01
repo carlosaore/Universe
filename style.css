@@ -257,5 +257,6 @@ something in the footer. Fix needed.
 .pageX-title{
 	display : flex;
 	justify-content: center;
+	font-family: Gruppo, cursive;
 }
 
