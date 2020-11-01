@@ -259,3 +259,32 @@ something in the footer. Fix needed.
 	justify-content: center;
 }
 
+.ourSolarSystemContainer {
+	display: flex;
+	justify-content: center;
+}
+#ourSolarSystem {
+	color :white;
+	font-size: 30px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 80%;
+	padding: 2%;
+	border-radius: 10px;
+	opacity: .8;
+	text-align: center;
+}
+.solarSystem-title{
+	display : flex;
+	justify-content: center;
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+#solarSystemImg {
+	margin-top:2%;
+	width: 100%;
+	height: auto;
+	border:1px solid grey;
+}
+
+
