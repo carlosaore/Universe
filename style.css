@@ -274,7 +274,11 @@ something in the footer. Fix needed.
 		   width: 100%;
 		    height: 100%;
 	}
-
+#milkyWay {
+	width: 70%;
+	height: auto;
+	border : solid silver;
+}
 
 .ourSolarSystemContainer {
 	display: flex;
