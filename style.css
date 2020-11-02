@@ -100,8 +100,9 @@ a:hover {
 	opacity: .9
 }
 
-h1 {
+.article-container h1 {
 	font-size: 2em;
+	text-transform: uppercase;
 }
 
 .article-container {
