@@ -277,12 +277,10 @@ something in the footer. Fix needed.
 
 
 .ourSolarSystemContainer {
-	border:1px solid red;
 	display: flex;
 	justify-content: center;
 }
 #ourSolarSystem {
-	border:1px solid magenta;
 	color :#d3d3d3;
 	font-size: 30px;
 	margin-top: 1%;
@@ -294,32 +292,29 @@ something in the footer. Fix needed.
 	text-align: center;
 }
 .solarSystem-title{
-	border:1px solid yellow;
 	display: flex;
 	justify-content: center;
 	margin-top: 4.5%;
 	margin-bottom: 1%;
 }
 #solarSystemImg {
-	border:1px solid lightgreen;
 	margin-top:0;
 	width: 100%;
 	height: auto;
 	border:1px solid grey;
 }
 #sunSection{
-	border:1px solid blue;
 	border-radius:10px;
 	margin: 2rem auto;
 	padding-top:1rem;
 	padding-left:1rem;
+	padding-bottom:0.3rem;
 	background-color: #383838;
 	opacity: .9;
 	width:90%;
 	height:fit-content;
 }
 .planetSection {
-	border:1px solid blue;
 	border-radius:10px;
 	margin: 2rem auto;
 	padding-top:1rem;
