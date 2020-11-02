@@ -100,6 +100,10 @@ a:hover {
 	opacity: .9
 }
 
+h1 {
+	font-size: 2em;
+}
+
 .article-container {
 	display: flex;
 	justify-content: space-around
@@ -132,7 +136,8 @@ a:hover {
 	float: right;
 	border-width: 0;
 	background-color: silver;
-	color: teal
+	color: teal;
+	font-family: Montserrat, sans-serif;
 }
 
 #twitter-widget {
