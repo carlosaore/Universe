@@ -231,12 +231,11 @@ something in the footer. Fix needed.
 	}
 	#check:checked~ul {
 		left: 0
-    }
-    
+	}
+	
     #footer-left, #footer-right {
         width: 90%;
-    }
-
+	}
 }
 
 .container-planetX { /*planet x css starts here*/
@@ -327,23 +326,25 @@ something in the footer. Fix needed.
 .planetSection {
 	border-radius:10px;
 	margin: 4rem auto;
-	padding-top:1rem;
-	padding-left:1rem;
+	padding:2rem;
 	background-color: silver;
 	opacity: .9;
 	width:80%;
 	height:fit-content;
 }
 .planetImg {
+	width: 30%;
+	max-width: 250px;
+	max-height: 250px;
 	border:2px solid #3c3c3c;
 	border-radius: 10px;
-	margin: 0 1rem;
+	margin: 1rem 1rem 1rem 0rem;
 	float:left;
 }
 .planetTitle {
 	font-family: Gruppo, cursive;
 }
-.planetSection:after {
+.planetSection:after {   /* I think this isn't doing anything, pls explain to me what is this for (Carlos)*/
 	content: "";
 	display: table;
 	clear: both;
