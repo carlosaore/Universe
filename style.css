@@ -297,6 +297,7 @@ something in the footer. Fix needed.
 	text-align: center;
 }
 .solarSystem-title{
+	font-family: Gruppo, cursive;
 	display: flex;
 	justify-content: center;
 	margin-top: 4.5%;
@@ -314,17 +315,17 @@ something in the footer. Fix needed.
 	padding-top:1rem;
 	padding-left:1rem;
 	padding-bottom:0.3rem;
-	background-color: #383838;
+	background-color: silver;
 	opacity: .9;
 	width:90%;
 	height:fit-content;
 }
 .planetSection {
 	border-radius:10px;
-	margin: 2rem auto;
+	margin: 4rem auto;
 	padding-top:1rem;
 	padding-left:1rem;
-	background-color: #383838;
+	background-color: silver;
 	opacity: .9;
 	width:80%;
 	height:fit-content;
@@ -334,6 +335,9 @@ something in the footer. Fix needed.
 	border-radius: 10px;
 	margin: 0 1rem;
 	float:left;
+}
+.planetTitle {
+	font-family: Gruppo, cursive;
 }
 .planetSection:after {
 	content: "";
