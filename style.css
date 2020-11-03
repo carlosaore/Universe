@@ -206,11 +206,7 @@ footer {
 	}
 	nav ul {
 		position: fixed;
-/*		width: 100%; 
-This is causing the sidebar to show on 
-the side at all times whenever there is 
-something in the footer. Fix needed.
-*/
+		width: 100%;
 		height: 100vh;
 		background: #2e2e2e;
 		top: 46px;
@@ -243,18 +239,23 @@ something in the footer. Fix needed.
 	display: flex;
 	justify-content: center;
 }
-#articleX {
+.articleX {
 	color :white;
 	font-size: 50px;
 	margin-top: 2%;
 	margin-bottom: 1%;
-	width: 60%;
+	width: 100%;
 	padding: 2%;
 	border-radius: 10px;
 	opacity: .8;
 	text-align: center;
 }
-#planetX {
+.planetX {
+	width: 50%;
+	height: auto;
+	border : solid silver;
+}
+.solar-image{
 	width: 80%;
 	height: auto;
 	border : solid silver;
@@ -280,38 +281,9 @@ something in the footer. Fix needed.
 		    height: 100%;
 	}
 #milkyWay {
-	width: 70%;
+	width: 50%;
 	height: auto;
 	border : solid silver;
-}
-
-.ourSolarSystemContainer {
-	display: flex;
-	justify-content: center;
-}
-#ourSolarSystem {
-	color :#d3d3d3;
-	font-size: 30px;
-	margin-top: 1%;
-	margin-bottom: 0;
-	width: 85%;
-	padding: 2%;
-	border-radius: 10px;
-	opacity: .8;
-	text-align: center;
-}
-.solarSystem-title{
-	font-family: Gruppo, cursive;
-	display: flex;
-	justify-content: center;
-	margin-top: 4.5%;
-	margin-bottom: 1%;
-}
-#solarSystemImg {
-	margin-top:0;
-	width: 100%;
-	height: auto;
-	border:1px solid grey;
 }
 #sunSection{
 	border-radius:10px;
@@ -345,10 +317,4 @@ something in the footer. Fix needed.
 .planetTitle {
 	font-family: Gruppo, cursive;
 }
-.planetSection:after {   /* I think this isn't doing anything, pls explain to me what is this for (Carlos)*/
-	content: "";
-	display: table;
-	clear: both;
-  }
-
 
