@@ -254,6 +254,7 @@ footer {
 .planetX {
 	width: 50%;
 	height: auto;
+	font-size: 14w;
 	border : solid silver;
 }
 .solar-image{
