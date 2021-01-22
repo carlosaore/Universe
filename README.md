@@ -3,7 +3,7 @@
 > This a simple website that shows information on space and the universe.\
 Made with HTML, CSS and JS.
 
-## [View demo](https://cocky-babbage-343162.netlify.app/)
+[View demo](https://cocky-babbage-343162.netlify.app/)
 
 ## What is this?
 This is a simple website built using vanilla HTML, CSS and a bit of JS as part of a 5 week web developer bootcamp, before starting to learn React.
